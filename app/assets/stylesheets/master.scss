@@ -1,5 +1,9 @@
 @import "bootstrap";
 
+body {
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
 h1, h2, h3, h4, h5, h6, .navbar {
   margin: 0;
 }
@@ -19,7 +23,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
   color: white;
 }
 
-// Home Page
+// Home Page Hero Section
 
 .hero {
   background: image_url('bible.jpg') no-repeat center center fixed;
@@ -45,4 +49,12 @@ h1, h2, h3, h4, h5, h6, .navbar {
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 200;
   text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+
+// Home Page Feature Section
+
+.feature {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
